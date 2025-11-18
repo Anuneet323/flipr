@@ -20,7 +20,7 @@ function Layout() {
                 flex items-center justify-center text-white shadow-lg">
                 F
               </div>
-              Flipr
+              Creative Studio
             </Link>
 
             <nav className="space-x-6 hidden md:flex">

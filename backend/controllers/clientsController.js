@@ -22,7 +22,7 @@ exports.createClient = async (req, res) => {
 
     let imageUrl = '', publicId = '';
     if (req.file && req.file.buffer) {
-      const result = await uploadBufferToCloud(req.file.buffer, 'flipr/clients');
+      const result = await uploadBufferToCloud(req.file.buffer, 'Creative Studio/clients');
       imageUrl = result.secure_url;
       publicId = result.public_id;
     }
@@ -68,7 +68,7 @@ exports.updateClient = async (req, res) => {
     let publicId = c.imagePublicId;
 
     if (req.file && req.file.buffer) {
-      const result = await uploadBufferToCloud(req.file.buffer, 'flipr/clients');
+      const result = await uploadBufferToCloud(req.file.buffer, 'Creative Studio/clients');
       imageUrl = result.secure_url;
       publicId = result.public_id;
       if (c.imagePublicId) await cloudinary.uploader.destroy(c.imagePublicId);

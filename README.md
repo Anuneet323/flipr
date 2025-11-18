@@ -1,6 +1,6 @@
-✅ FLIPR Full-Stack Web Application
+✅ Creative Studio Full-Stack Web Application
 
-A fully responsive, cloud-deployed full-stack application built for the Flipr Assignment, featuring a premium glassmorphism UI, secure admin panel, CRUD dashboards, and complete project/client/contact/newsletter management.
+A fully responsive, cloud-deployed full-stack application built for the Creative Studio Assignment, featuring a premium glassmorphism UI, secure admin panel, CRUD dashboards, and complete project/client/contact/newsletter management.
 
 This project demonstrates real-world MERN development, API design, authentication, UI/UX design, and cloud deployment.
 
@@ -75,7 +75,7 @@ Cloudinary image upload
 Automatic image cropping (450×350)
 
 🗂️ Folder Structure
-flipr/
+Creative Studio/
  ├── backend/
  │    ├── controllers/
  │    ├── models/
@@ -95,8 +95,8 @@ flipr/
 
 ⚙️ Installation & Setup
 1. Clone Repository
-git clone https://github.com/your-username/flipr.git
-cd flipr
+git clone https://github.com/your-username/Creative Studio.git
+cd Creative Studio
 
 2. Setup Backend
 cd backend

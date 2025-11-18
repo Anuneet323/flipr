@@ -46,7 +46,7 @@ export default function AdminLogin() {
         {/* Footer */}
         <div className="mt-6 text-center">
           <p className="text-gray-400 text-sm">
-            Protected Admin Area — Flipr Project
+            Protected Admin Area — Creative Studio Project
           </p>
         </div>
         

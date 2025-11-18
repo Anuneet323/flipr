@@ -34,7 +34,7 @@ export default function AdminApp() {
             </div>
             <div>
               <h3 className="font-bold text-lg">Admin Panel</h3>
-              <p className="text-gray-400 text-sm">Flipr System</p>
+              <p className="text-gray-400 text-sm">Creative Studio System</p>
             </div>
           </div>
 

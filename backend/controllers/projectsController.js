@@ -22,7 +22,7 @@ exports.createProject = async (req, res) => {
 
     let imageUrl = '', publicId = '';
     if (req.file && req.file.buffer) {
-      const result = await uploadBufferToCloud(req.file.buffer, 'flipr/projects');
+      const result = await uploadBufferToCloud(req.file.buffer, 'Creative Studio/projects');
       imageUrl = result.secure_url;
       publicId = result.public_id;
     }
@@ -72,7 +72,7 @@ exports.updateProject = async (req, res) => {
 
     if (req.file && req.file.buffer) {
       // upload new and delete old
-      const result = await uploadBufferToCloud(req.file.buffer, 'flipr/projects');
+      const result = await uploadBufferToCloud(req.file.buffer, 'Creative Studio/projects');
       imageUrl = result.secure_url;
       publicId = result.public_id;
       if (p.imagePublicId) {
