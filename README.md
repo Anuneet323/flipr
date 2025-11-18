@@ -74,6 +74,8 @@ Cloudinary image upload
 
 Automatic image cropping (450×350)
 
+ADMIN_PASSWORD=your_admin_password
+
 🗂️ Folder Structure
 Creative Studio/
  ├── backend/
